@@ -12,3 +12,26 @@ footer a {
   color: inherit;
   text-decoration: underline;
 }
+.creator-copy {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.creator-art {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: start;
+}
+
+.grim-poster {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 1.5rem 0 0;
+  align-self: start;
+}
+
+.grim-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
